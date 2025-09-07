@@ -13,7 +13,7 @@ $('loginTG').onclick = async () => {
   if (!start || !start.sessionToken) { alert('Failed to start'); return; }
 
   // Demo: open bot link (tum apna bot username daal dena)
-  window.open(start.botLink || 'https://t.me/okwalletverifybot', '_blank');
+  window.open('https://t.me/okwalletverifybot', '_blank');
 
   $('status').style.display='block';
   let tries = 60; // ~ 60 sec
