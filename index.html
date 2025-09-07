@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>OkWallet • Login via Telegram</title>
+  <title>OkWallet · Login via Telegram</title>
   <style>
     body{margin:0;font-family:system-ui;background:#0b1020;color:#fff;display:grid;place-items:center;min-height:100vh}
     .card{width:min(420px,92vw);background:#111a33;border:1px solid #21304f;border-radius:18px;padding:18px;box-shadow:0 12px 28px rgba(0,0,0,.35)}
-    input,button{width:100%;padding:12px;border-radius:12px;border:1px solid #2b3b60;background:#0e1630;color:#fff}
-    button{background:#22c55e;color:#001;border:0;font-weight:700;margin-top:10px;cursor:pointer}
-    .status{margin-top:10px;color:#9ad7ff;display:none}
+    input,button{width:100%;padding:12px;border-radius:12px;border:1px solid #2b3b6e;background:#061a30;color:#fff}
+    button{background:#16a34a;font-weight:700;margin-top:10px;cursor:pointer}
+    .status{margin-top:8px;font-size:13px;opacity:.8}
     .ok{color:#86efac}
   </style>
 </head>
 <body>
   <div class="card">
     <h2>OkWallet — Login via Telegram</h2>
-    <div style="color:#9fb3d1;font-size:12px;margin-top:8px">Demo • No real money</div>
+    <div style="color:#9fb3d1;font-size:12px;margin-top:8px">Demo · No real money</div>
     <input id="username" placeholder="username (a-z,0-9,_)" />
     <button id="loginTG">Login with Telegram</button>
     <div id="status" class="status">Waiting for Telegram confirmation…</div>
